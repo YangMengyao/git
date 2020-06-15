@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+ }
+a{
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.body{
+  background-color:#f3f5f7;
+}
+.logo{
+      width: 170px;
+      height: 39px;
+      float: left;
+      margin-top: 33px;
+    }
+.header{
+  height:32px;
+  line-height:32px;
+  border-bottom:1px solid rgba(218,218,218,1);
+}
+.header img{
+  float:left;
+  width:170px;
+  margin-top:33px;
+}
+.sounei{
+  height:40px;
+  width:300px;
+  float:left;
+  margin-left:50px;
+}
+.sounei{
+    float: left;
+      width: 340px;
+      height: 13px;
+      padding: 13px 0 12px 19px;
+      border: 1px solid rgba(0,164,255,1);
+}
+.header.li{
+  float:right;
+  margin:15px 80px auto auto;
+}
+.header.li.a{
+  font-size:18px;
+  color:rgba(5,5,5,1)
+}
+.header-info li:hover {
+      border-bottom: 2px solid rgba(0,164,255,1);
+    }
+.banner{
+  margin-top: 25px;
+  margin-left: 245px;
+  float: left;
+  /*border: 1px solid blue;*/
+  width: 1240px;
+  height: 230px;
+  background-color:#F5F5F5;
+  overflow: hidden;
+}
+.banner .nav{
+  margin-top: 13px;
+  margin-left: 20px;
+}
+.first{
+  margin-bottom: 30px;
+}
+.first li{
+  display: inline-block;
+    padding: 4px 12px;
+    font-size: 14px;
+}
+.first li a{
+   color: #444950; 
+}
+.first li a:hover{
+  color: #2254f4;
+}
+.ad {
+    height: 550px;
+    width: 100%;
+    background: url(../images/banner2.png) no-repeat center;
+}
+
+.xinqing img {
+    vertical-align: bottom;
+}
+
+.xinqing li {
+    position: relative;
+}
+
+.xinqing-big {
+    float: left;
+
+}
+
+.xinqing li div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    background: rgba(208, 61, 61, 0.8);
+    color: white;
+    text-align: center;
+}
+
+.xinqing-big li div {
+    height: 58px;
+}
+
+.xinqing-small {
+    float: right;
+    width: 700px;
+}
+
+.xinqing-small li {
+    float: left;
+}
+ .p{
+      background-color:#000;
+      color:#fff;
+      text-align:center;
+      line-height:120px;
+   }
